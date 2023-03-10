@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px){
+
+
+/*	main section*/
+.main-top{
+ top: 35%;
+ left:1%;
+}
+
+ .main-top{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ 	left: 12%;
+ }
+
+ .main-top .m-head h4{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+ }
+
+
+
+.main-top-right{
+  margin-top: 12rem;
+ }
+
+.main-top .m-head h2{
+  font-size: 5.8rem;
+ }
+
+ 
+/*end main section*/
+
+/*about section*/
+
+.data-head{
+	text-align: center;
+}
+
+
+.data-cont .cont-top,.data-cont .cont-bottom{
+  margin-left: 0rem;
+}
+
+/*end about section*/
+
+.data-cont .cont-bottom{
+  margin: 8rem;
+}
+
+
+
+
+
+}

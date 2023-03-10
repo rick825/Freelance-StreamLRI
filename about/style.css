@@ -1,0 +1,305 @@
+
+/*main section*/
+#main{
+width: 102%;
+position: relative;
+}
+
+.main{
+ width: 100%;
+ height: 60rem;
+color: black;
+/*background-color: #222;*/
+}
+
+/*particles*/
+ #particles-js{
+  background-color: #1f1f2e;
+  background-image: url(../images/star.jpg);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 100;
+ }
+
+  #particles-js:before{
+    content: " ";
+    background-color: #0d0d26;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    top:0;
+     z-index: -1;
+  }
+/*end particles*/
+
+/*main top*/
+ .main-top{
+  width: 75%;
+  position: absolute;
+  z-index: 10000;
+  color: white;
+  top: 50%;
+  left: 14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+
+ .main-top .m-head h2{
+  font-size: 7.8rem;
+ }
+
+ .main-top .main-top-right a{
+  font-size: 1.5rem;
+  color: #b3b3b3;
+ }
+
+ .main-top .main-top-right span a{
+  color: white;
+ }
+
+ .main-top .m-head h4{
+  font-size: 2rem;
+ }
+
+ .main-top .m-para{
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+ }
+
+
+
+  .main-top .btn button:hover{
+     background-color: #33334d;
+  color: white;
+  }
+/*end main top*/
+
+/*end main section*/
+
+/*about section*/
+#about{
+  width: 100%;
+  height: 100%;
+}
+
+.about{
+  .width: 100%;
+  min-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.about .abc{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about-head{
+  flex-direction: column;
+}
+
+.about-head{
+  margin-top: 5rem;
+}
+
+.about-head h2{
+  font-size: 3.4rem;
+}
+
+.about-head h2 span{
+  color: #000080;
+  border-bottom: 2px solid #000080;
+}
+
+.about-head p{
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+
+/*about cont section*/
+.about-cont{
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.abcont{
+  width: 35rem;
+  min-height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.abcont .abc-img{
+  width: 33rem;
+  height: 28rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.abc-cont{
+  margin-top: 2rem;
+}
+
+.abc-cont h2{
+  font-size: 2rem;
+}
+
+.abc-cont p{
+ margin-top: 1.5rem;
+ font-size: 1.6rem;
+}
+
+.ab-cont1 .abc-img{
+  background-image: url(images/about/ab1.jpg);
+}
+
+.ab-cont2 .abc-img{
+  background-image: url(images/about/ab2.jpg);
+}
+
+.ab-cont3 .abc-img{
+  background-image: url(images/about/ab3.jpg);
+}
+
+/*end about cont section*/
+/*end about section*/
+
+/*<!-- skills expertise section -->*/
+
+#skills-expert{
+  width: 100%;
+}
+
+.skills-expert{
+  width: 100%;
+  min-height: 40rem;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+ align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+  background-color: #e0e0eb;
+  
+}
+
+.sec{
+   width: 100%;
+  min-height: 40rem;
+   display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+.skills-expert .seleft{
+
+}
+
+.skills-expert .seleft h2{
+  font-size: 5rem;
+  margin-top: -10rem;
+}
+
+.skills-expert .seleft p{
+  width: 70%;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.skills-expert .seright{
+ position: relative;
+}
+
+.skills-expert .seright h2{
+  margin-top: 2rem;
+}
+
+.se-rc{
+  width: 100%;
+  margin-top: -12rem;
+}
+
+.progress-bar {
+  height: 30px;
+  width: 100%;
+  background-color: #BFADA3;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+  position: relative;
+}
+
+* + .progress-bar {
+  margin-top: 1rem;
+}
+
+.progress-bar .bar {
+  width: 0;
+  height: 100%;
+  background-color: #B6244F;
+  
+  /*Lollipop background gradient*/
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent
+  );
+ 
+  background-size: 30px 30px;
+  animation: move 2s linear infinite;
+  box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+  transition: width 2s ease-out;
+}
+
+/*Lollipop background gradient animation*/
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+
+.progress-bar .perc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-weight: bold;
+}
+
+
+
+
+/*<!--end skills expertise section -->*/
+
+

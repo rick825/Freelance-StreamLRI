@@ -1,0 +1,311 @@
+@media only screen and (max-width: 600px){
+
+
+/*nav section*/
+	 .ham{
+	 	min-width: 4rem;
+	 	min-height: 1rem;
+	 	border: 2px solid #0a0a0f;
+	 	position: fixed;
+	 	left: 1.5%;
+	 	top: 2%;
+	 	padding: 0.5rem;
+      display: block;
+      z-index: 100000000;
+	 }
+
+	 .ham .l1{
+     
+	 }
+
+	 .ham .line{
+	 	width: 2.5rem;
+	 	border: 2px solid #0a0a0f;
+	 	margin: 0.4rem;
+	 }
+
+	 .backblacknav{
+	 	width: 100%;
+	 	height: 100rem;
+	 	position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        display: flex;
+        opacity: 0.9;
+        transition: 0.4s ease;
+        transform: translateX(100%);
+	 }
+
+	 #main{
+	 	width: 100%;
+	 }
+
+	 .backblacknavshow{
+	 	 transform: translateX(0);
+	 }
+
+
+#nav{
+	/*position: absolute;*/
+	background-color: black;
+}
+
+.nav .navitem .dropdown{
+	display: none;
+}
+
+
+.navtop{
+	display: none;
+}
+
+.navbot{
+position: fixed;
+}
+
+.navbot .navlogo{
+ margin-left: 1rem;
+}
+
+.navlist .navitem{
+  margin-left: -2.5rem;
+}
+
+.navlist .navlink{
+	color: white;
+}
+
+
+
+
+.navbot{
+	justify-content: center;
+}
+
+
+.navbot .navlist{
+	position: fixed;
+	top: 10%;
+}
+
+
+.navlist .navul{
+ flex-direction: column;
+ margin-top: 2rem;
+ align-items: center;
+ margin-right: 2rem;
+}
+
+.navlist{
+	transition: 0.5s ease;
+	 transform: translateX(-100rem);
+}
+
+.navopen{
+	transform: translateX(0);
+}
+
+.navlist .navitem{
+	margin-top: 5rem;
+}
+.navlist .navlink{
+	font-size: 2.5rem;
+}
+	/*end nav section*/
+
+/*	main section*/
+.main-top{
+ top: 35%;
+ left:1%;
+}
+
+ .main-top .m-head{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+  font-size: 6rem;
+ }
+
+ .main-top .m-para{
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-align: center;
+ }
+
+ .main-top .btn button{
+  margin-left: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  border: none;
+  margin-top: 2rem;
+ }
+/*end main section*/
+
+
+/*services card section*/
+.serv-card{
+ height: 150rem;
+}
+#serv-card .flip-card{
+position: absolute;
+top: 20px;
+left: 10%;
+display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+}
+
+/*end services card section*/
+
+
+/*.need-help section*/
+.need-help{
+	flex-direction: column;
+}
+
+.needhelp-left{
+width: 100%;
+font-size: 2rem;
+padding-left: 12rem;
+}
+
+.needhelp-right{
+	padding: 1.5rem;
+	width: 100%;
+}
+
+.needhelp-right .nh-btn{
+	display: flex;
+	justify-content: center;
+}
+
+.needhelp-right .nh-btn button{
+	border-color: none;
+}
+/*end need help section*/
+
+/*data sec*/
+.data-sec-top{
+	flex-direction: column;
+}
+
+.dst-cont{
+ width: 100%;
+ padding: 1rem;
+ min-height: 10rem;
+}
+
+.dst-left{
+	display: none;
+}
+
+.dstlc,.dstlb{
+	display: none;
+}
+
+.dsimg{
+  display: flex;
+  margin-top: 5rem;
+}
+
+.dst-right{
+	margin-top: -1rem;
+}
+
+
+
+.dsimg img{
+  width: 40rem;
+}
+
+/*data sec bottom*/
+.data-sec-bot{
+	margin-top: 5rem;
+}
+/*end data sec bottom*/
+
+
+
+/*end data sec*/
+
+/*use service section*/
+.use-serv-cont{
+ padding: 2rem;
+}
+
+.use-serv .use-serv-cont h2{
+  font-size: 2.5rem;
+}
+
+.use-serv .use-serv-cont .btn button{
+	margin-left: 1rem;
+	font-size: 2rem;
+	border-color: none;
+}
+/*end use service section*/
+
+
+/*footer section*/
+.footer {
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.footr{
+	width: 100%;
+	max-height: 100rem;
+	border: none;
+}
+
+.footer .footr1 h1{
+   font-weight: 800;
+   font-size: 2.5rem;
+}
+
+.footer .footr2{
+	margin-top: 6rem;
+}
+
+.foot-links .navitem{
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+.foot-links .navlink{
+	font-size: 2.5rem;
+}
+
+.footer .footr3{
+ display: flex;
+ margin-top: 10rem;
+}
+
+.footer .footr2 h1,.footer .footr3 h1{
+	font-size: 5rem;
+}
+
+.footer .footr3 .add{
+   width: 100%;
+}
+.footer .footr3 h2{
+font-size: 2rem;
+}
+
+.footer .footr3 p{
+	font-size: 1.8rem;
+}
+
+/*end footer section*/
+
+
+	
+}

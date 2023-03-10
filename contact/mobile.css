@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px){
+
+
+/*	main section*/
+.hero .main-top{
+ top: 35%;
+ left:12%;
+}
+
+ .main-top{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+ }
+
+ .main-top .m-head h4{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+ }
+
+
+
+.main-top-right{
+  margin-top: 12rem;
+ }
+
+
+ 
+/*end main section*/
+
+/*contact section*/
+.contact-cont{
+	flex-direction: column;
+}
+
+
+
+.contact-head{
+	margin-top: -4rem;
+	text-align: center;
+}
+
+#contact-form{
+	width: 35rem;
+}
+/*end contact section*/
+#contact .cont-right{
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+}
+
+#contact .cont-right .Address{
+  margin-left: 0rem;
+}
+
+
+.footer .footr2,.footer .footr3{
+	margin-left: -3rem;
+}
+
+
+	
+}
